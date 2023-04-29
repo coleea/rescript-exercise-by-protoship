@@ -48,6 +48,17 @@
   definitely improves the developer experience.
  */
 
+let hello2 : int = 1
+let hello3 : float = 1.
+let hello4 : bool = true
+let hello5 : bool = !true
+let hello6 : char = '1'
+let hello7 = [1,2,3]
+let hello8 = (1,2,3)
+// let hello9 = [1,2,3] ++ [4,5,6]
+let hello10 = "abc" ++ "efg"
+let hello11 = 1. +. 1.1
+
 /*
   Uncomment the line below to get started
  */
@@ -88,8 +99,11 @@
 
   The 2nd and 3rd lines are commentend out on purpose (See exercise 3).
  */
+ let runningTotal = 1 * 1
+ let runningTotal = runningTotal * 2
+ let runningTotal = runningTotal * 3
 /*
-let runningTotal = 1 * 1
+// let runningTotal = 1 * 1
 // let runningTotal = 2 * 2
 // let runningTotal = 3 * 3
 */
@@ -132,11 +146,11 @@ let runningTotal = 1 * 1
 /*
   Uncomment the block below.
  */
-/*
+
 let sumOfInts = 1 + 2 + 3 + 4
 let sumOfFloats = 1. +. 2.2 +. 3.14
 let joinedStrings = "Hello, " ++ "World" ++ "!"
-*/
+
 
 /*
   In the expressions above are adding together multiple integers, floats
@@ -245,6 +259,7 @@ let book = bookName ++ ": " ++ tagline
   
   In ReScript there is no explicit `return` keyword. It is always
   the final expression.
+
 
   -----------------------------------------------------------------------------
   Exercise 5 (easy)

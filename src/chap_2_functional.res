@@ -1,7 +1,7 @@
 /*
   Uncomment the block below.
  */
-/*
+
 let downvotes = 10
 let upvotes = 5
 let cssClassName = if upvotes < downvotes {
@@ -9,7 +9,6 @@ let cssClassName = if upvotes < downvotes {
 } else {
   "Comment"
 }
-*/
 
 /*
   The (if/else-if/.../else) syntax is a "control flow" construct familiar

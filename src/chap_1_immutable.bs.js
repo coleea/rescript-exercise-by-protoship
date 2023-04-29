@@ -2,7 +2,56 @@
 'use strict';
 
 
-var hello = "안녕";
+var hello7 = [
+  1,
+  2,
+  3
+];
+
+var hello11 = 1 + 1.1;
+
+var runningTotal = 2;
+
+var runningTotal$1 = Math.imul(runningTotal, 3);
+
+var sumOfFloats = 1 + 2.2 + 3.14;
+
+var hello = "\xec\x95\x88\xeb\x85\x95";
+
+var hello2 = 1;
+
+var hello3 = 1;
+
+var hello4 = true;
+
+var hello5 = false;
+
+var hello6 = /* "1" */49;
+
+var hello8 = [
+  1,
+  2,
+  3
+];
+
+var hello10 = "abcefg";
+
+var sumOfInts = 10;
+
+var joinedStrings = "Hello, World!";
 
 exports.hello = hello;
+exports.hello2 = hello2;
+exports.hello3 = hello3;
+exports.hello4 = hello4;
+exports.hello5 = hello5;
+exports.hello6 = hello6;
+exports.hello7 = hello7;
+exports.hello8 = hello8;
+exports.hello10 = hello10;
+exports.hello11 = hello11;
+exports.runningTotal = runningTotal$1;
+exports.sumOfInts = sumOfInts;
+exports.sumOfFloats = sumOfFloats;
+exports.joinedStrings = joinedStrings;
 /* No side effect */
