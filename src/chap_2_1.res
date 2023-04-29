@@ -29,6 +29,18 @@ let cssClassName = if upvotes < downvotes {
   will catch this and inform you that the types do not match. 
  */
 
+let total = 500. 
+let discount =  {
+  if total >= 500. {
+      total *. 0.1
+  } 
+  else if total < 500. && total >= 200. {
+      total *. 0.5 +. 25.  
+  } else {
+    0.
+  }
+}
+
 /*
   -----------------------------------------------------------------------------
   Exercise 1
@@ -66,7 +78,7 @@ let cssClassName = if upvotes < downvotes {
 /*
   Uncomment the block below for completing exercise 1.
  */
-/*
+
 let cartTotal = 220
 let discount = 0
 SimpleTest.assertEqual(
@@ -74,7 +86,9 @@ SimpleTest.assertEqual(
   ~actual=discount,
   ~msg="[exercise 1] Calculate discount for total amount of shopping cart",
 )
-*/
+
+// let somefn : (string, string) => string
+let somefn = (firstname : string, lastname: string) : string => firstname ++ " "  ++ lastname
 
 /*
   The code above is not reusable. You need functions for creating reusable
