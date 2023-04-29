@@ -1,6 +1,7 @@
 /*
   Uncomment the line below to get started
  */
+ let hello : string = "안녕"
 // let hello: string = "Hello, World!"
 
 /*

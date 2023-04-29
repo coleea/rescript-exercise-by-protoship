@@ -14,5 +14,8 @@
   "license": "CC-BY-4.0",
   "devDependencies": {
     "bs-platform": "^8.3.3"
+  },
+  "dependencies": {
+    "rescript": "^10.1.4"
   }
 }
